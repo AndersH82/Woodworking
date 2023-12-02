@@ -17,7 +17,10 @@ body {
 }
 /* Header */
 header {
-    background-color: mediumblue
+    background-color: #ffffff;
+    padding: 0;
+    position: fixed;
+    z-index: 99;
 }
 
 h1 {
