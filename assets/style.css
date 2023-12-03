@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -14,25 +14,25 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    color:beige;
+    font-family: "Caveat", sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Caveat', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+    letter-spacing: 1px;
+    color: beige;
 }
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color:burlywood;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px beige;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -44,8 +44,8 @@ header a {
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    font-size: 130%;
+    letter-spacing: 8px;
     list-style-type: none;
 }
 
@@ -54,17 +54,17 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid beige;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color:burlywood;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px beige;
     display: none;
     top: 100%;
 }
@@ -97,22 +97,22 @@ main {
     position: relative;
 }
 #cover-text {
-    background-color: rgba(241, 109, 107, .7);
-        font-size: 130%;
+    background-color: rgba(190, 133, 86, 0.7);
+        font-size: 120%;
         position: absolute;
         bottom: 30px;
-        width: 80%;
-        min-height: 200px;
-        padding-top: 40px;
+        width: 85%;
+        min-height: 180px;
+        padding-top: 10px;
         padding-left: 10px;
 }
 #cover-text > h2, #cover-text > h3{
-    color:#ffffff
+    color:beige;
 }
 /* Footer */
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -121,7 +121,16 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: beige;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:burlywood;
+    color: beige;
+    text-align: center;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -168,6 +177,6 @@ main {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid beige;
     }
 }
