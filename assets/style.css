@@ -110,6 +110,15 @@ main {
 #cover-text > h2, #cover-text > h3{
     color:beige;
 }
+/* Gallery */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -201,7 +210,7 @@ input[type=password]:focus {
 
 /* Set a style for all buttons */
 button {
-    background-color: bisque;
+    background-color: burlywood;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -218,7 +227,7 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
-    background-color: burlywood;
+    background-color:coral;
 }
 
 /* Float cancel and signup buttons and add an equal width */
