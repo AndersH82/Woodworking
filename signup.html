@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Woodworking classes for people who want to learn woodworking" />
-    <meta name="keywords" content="woodworking classes, creative classes, woodworking, creative, classes, wood" />
-    <meta name="author" content="Anders Holst" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Woodworking classes for people who want to learn woodworking">
+    <meta name="keywords" content="woodworking classes, creative classes, woodworking, creative, classes, wood">
+    <meta name="author" content="Anders Holst">
     <!--Title-->
     <title>Woodworking</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <!--Favicon-->
-    <link rel="woodworking-icon" sizes="180x180" href="assets/favicon/carving_7925843_180.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/carving_7925843_32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/carving_7925843_16.png" />
+    <link rel="icon" sizes="180x180" href="assets/favicon/carving_7925843_180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/carving_7925843_32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/carving_7925843_16.png">
     <!--Stylesheet-->
     <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -26,11 +26,11 @@
             <h1 id="logo">Woodworking</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-troggle">
-        <label for="nav-toggle" class="nav-toggle-label">X</label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-hammer" aria-hidden="true"></i></label>
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a>></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="signup.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
@@ -38,32 +38,33 @@
 
     <!--Main content-->
     <main>
-        <title>Login Form | CodingLab</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-        </head>
-        
-        <body>
-            <div class="container">
-                <div class="wrapper">
-                    <div class="title"><span>Login Form</span></div>
-                    <form action="#">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <input type="text" placeholder="Email or Phone" required>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-lock"></i>
-                            <input type="password" placeholder="Password" required>
-                        </div>
-                        <div class="pass"><a href="#">Forgot password?</a></div>
-                        <div class="row button">
-                            <input type="submit" value="Login">
-                        </div>
-                        <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
-                    </form>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Sign Up</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+    
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+    
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+    
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
                 </div>
-            </div>
+            </form>
     </main>
     <!--Footer-->
     <footer>
@@ -95,4 +96,3 @@
     </body>
     
     </html>
-</html>

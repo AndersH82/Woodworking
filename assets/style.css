@@ -84,6 +84,7 @@ nav {
 
 /* Main content */
 main {
+    background-color: burlywood;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -172,135 +173,132 @@ main {
     width: 300px;
     right: 50px;
 }
- {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
 body {
-    background: #1abc9c;
-    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-::selection {
-    background: rgba(26, 188, 156, 0.3);
+* {
+    box-sizing: border-box;
 }
 
-.container {
-    max-width: 440px;
-    padding: 0 20px;
-    margin: 170px auto;
-}
-
-.wrapper {
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
     width: 100%;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
 
-.wrapper .title {
-    height: 90px;
-    background: #16a085;
-    border-radius: 5px 5px 0 0;
-    color: #fff;
-    font-size: 30px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.wrapper form {
-    padding: 30px 25px 25px 25px;
-}
-
-.wrapper form .row {
-    height: 45px;
-    margin-bottom: 15px;
-    position: relative;
-}
-
-.wrapper form .row input {
-    height: 100%;
-    width: 100%;
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
     outline: none;
-    padding-left: 60px;
-    border-radius: 5px;
-    border: 1px solid lightgrey;
-    font-size: 16px;
-    transition: all 0.3s ease;
 }
 
-form .row input:focus {
-    border-color: #16a085;
-    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+/* Set a style for all buttons */
+button {
+    background-color: bisque;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
 
-form .row input::placeholder {
-    color: #999;
+button:hover {
+    opacity: 1;
 }
 
-.wrapper form .row i {
-    position: absolute;
-    width: 47px;
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: burlywood;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
     height: 100%;
-    color: #fff;
-    font-size: 18px;
-    background: #16a085;
-    border: 1px solid #16a085;
-    border-radius: 5px 0 0 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: burlywood;
+    padding-top: 50px;
 }
 
-.wrapper form .pass {
-    margin: -8px 0 20px 0;
+/* Modal Content/Box */
+.modal-content {
+    background-color:burlywood;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid beige;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
 }
 
-.wrapper form .pass a {
-    color: #16a085;
-    font-size: 17px;
-    text-decoration: none;
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
 }
 
-.wrapper form .pass a:hover {
-    text-decoration: underline;
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
 }
 
-.wrapper form .button input {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding-left: 0px;
-    background: #16a085;
-    border: 1px solid #16a085;
+.close:hover,
+.close:focus {
+    color:burlywood;
     cursor: pointer;
 }
 
-form .button input:hover {
-    background: #12876f;
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-.wrapper form .signup-link {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 17px;
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    
 }
-
-.wrapper form .signup-link a {
-    color: #16a085;
-    text-decoration: none;
-}
-
-form .signup-link a:hover {
-    text-decoration: underline;
-}
-}
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
