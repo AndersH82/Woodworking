@@ -18,6 +18,13 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -36,13 +43,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -57,7 +57,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar dropdown */
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -84,12 +84,31 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
+/* Wood section */
+#wood {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+        font-size: 130%;
+        position: absolute;
+        bottom: 30px;
+        width: 80%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
+}
+#cover-text > h2, #cover-text > h3{
+    color:#ffffff
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -98,11 +117,13 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
-#social-networks {
+
+#social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -135,8 +156,13 @@ main {
 
     /* Main content */
     main {
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+#cover-text {
+    width: 300px;
+    right: 50px;
+}
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
