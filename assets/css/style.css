@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color:beige;
+    color:gray;
     font-family: "Caveat", sans-serif;
 }
 
@@ -22,7 +22,7 @@ h1, h2, h3 {
     font-family: 'Caveat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: beige;
+    color: gray;
 }
 
 /* Header */
@@ -32,7 +32,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px beige;
+    box-shadow: 0 2px 2px gray;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -54,7 +54,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid beige;
+    border-bottom: 1px solid gray;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -64,7 +64,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px beige;
+    box-shadow: 0 2px 2px gray;
     display: none;
     top: 100%;
 }
@@ -91,16 +91,15 @@ main {
 }
 
 /* Wood section */
-#wood {
-    height: 600px;
+.wood {
+    height: 100%;
     width: 100%;
-    background-image: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 #cover-text {
     background-color: rgba(190, 133, 86, 0.7);
         font-size: 120%;
-        position: absolute;
+        position:sticky;
         bottom: 30px;
         width: 85%;
         min-height: 180px;
@@ -108,7 +107,7 @@ main {
         padding-left: 10px;
 }
 #cover-text > h2, #cover-text > h3{
-    color:beige;
+    color:gray;
 }
 /* Gallery */
 #photos img {
@@ -126,21 +125,22 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: burlywood;
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: beige;
+    color: gray;
+    
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:burlywood;
-    color: beige;
-    text-align: center;
+
+/* Media query: larger or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -181,9 +181,6 @@ main {
 #cover-text {
     width: 300px;
     right: 50px;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -267,7 +264,7 @@ button:hover {
     background-color:burlywood;
     margin: 5% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid beige;
+    border: 1px solid gray;
     width: 80%;
     /* Could be more or less, depending on screen size */
 }
@@ -300,6 +297,10 @@ hr {
     clear: both;
     display: table;
 }
+/* Gallery */
+#photos {
+    column-count: 3;
+}
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
@@ -313,4 +314,10 @@ hr {
     #menu a:hover {
         border-bottom: 1px solid beige;
     }
+/* Gallery */
+#photos {
+    column-count: 4;
+}
+}
+}
 }
