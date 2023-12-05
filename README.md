@@ -1,38 +1,130 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Wood](assets/Image-README/Responsive.png)
 
-Welcome,
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+WELCOME,
+This is the Woodworking. In case you like woodworking and the smell of worked wood, you have come to the right place.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+# Table of contents
 
-## Codeanywhere Reminders
+- [Table of contents](#table-of-contents)
+- [UX](#ux)
+- [Design](#design)
+- [Features](#features)
+- [Testing](#testing)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+# UX
 
-`python3 -m http.server`
+SITE PURPOSE
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+To provide information on woodworking for people of all levels who to want to learn and improve their craft in woodworking.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+SITE GOAL
 
-`http_server`
+Can come in here and become a member. Get infrormtion and lessons in woodworking. Share experience and pictures.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+AUDIENCE
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Anyone who wants to learn woodworking is welcome, young and old.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+CURRENT USER GOAL
 
-To log into the Heroku toolbelt CLI:
+To be able to share experiences with each other and become better together.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+NEW USER GOAL
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+To be able to learn new things in woodworking.
+By registering on the website, as a new member you can get a lot of new information and tips.
 
----
+# Design
 
-Happy coding!
+WIREFRAMES
+
+I cerated my wireframes by hand
+
+![Wireframe one](assets/Image-README/index.jpg)
+![Wireframe two](assets/Image-README/gallery.jpg)
+![Wireframe three](assets/Image-README/signup.jpg)
+
+COLOUR PLATTE
+
+The colour palette was sourced from [coolors](https://coolors.co/).
+I chose colors inspired from woodworking.
+![Colour Pallette](assets/Image-README/colorpalett.png)
+
+TYPOGRAPHY
+
+My typography was sourced from [Google Fonts](https://fonts.google.com/).
+ 
+IMAGERY
+
+All imagery for the website has been sourced from [unsplash.com](https://unsplash.com/) which are free photo stock platforms. I specifically wanted to show imagery of all the stages of woodworking, so the audience can get an understanding of the homepage.
+
+# Features
+LANGUAGES  USED
+- HTML 
+- CSS
+
+NAVIGATION BAR
+
+This is included on all three pages and provides an easy structure for the audience to be able to use.![navigation bar](assets/Image-README/Navbar.png) This is a responsive feature and remains this way, until 768px and down where the navigation bar moves under logo,![navigation bar](assets/Image-README/NavbarLogo.png), so the design of both of these features isn't compromised.
+
+
+
+LANDING PAGE
+
+![landing page](assets/Image-README/Landing.png)
+
+The landing page is displayed above.
+
+FOOTER
+
+![footer](assets/Image-README/Footer.png)
+
+The social links all sit within the footer, which you are able to click and they will take you to the intended social media platform.
+
+# Testing
+VALIDATION TEST
+
+![index val](assets/Image-README/index_val.png)
+
+![gallery val](assets/Image-README/gallery-val.png)
+![signup val]
+- all of my html pages have been put through the w3c html tester and passed.
+  
+![css val]
+- all of the css code has been put through w3c tester and has passed.
+
+LIGHTHOUSE TEST
+
+![lighthouse rating](assets/Image-README/lighthousedesktop.png)
+- my page rating for desktop
+ 
+![lighthouse rating](assets/Image-README/lighthousemobile.png)
+
+- my page rating for mobile
+
+
+LIBRARIES AND PROGRAMS USED
+- Github: Store Repository
+- Codeanywhere: To create the html and css file
+- Google Fonts: Font family 'Playfair Display' and 'Source Sans'
+- Google Chrome Dev Tools: To help with styling the media queries
+- Safari: Site testing on an alternative browser
+- Font Awesome: Social media icons
+- Am I responsive: Screenshots of the final project for the README file
+- 
+
+MEDIA
+All of my images are sourced from unsplash.com
+
+Tanks to:
+
+- Alexandre Jaquetoni
+- Alex Jones
+- Bailey Alexander
+- barn images
+- Carlo Borella
+- Cristina Gottardi
+- Dominik-Scythe
+- Ipek Aydogdu
+- Jonathan Taylor
+

@@ -89,6 +89,9 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+.hidden-heading {
+    display: none;
+}
 
 /* Wood section */
 .wood {
