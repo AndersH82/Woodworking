@@ -19,7 +19,15 @@ body {
     font-size: x-large;
 }
 
-h1, h2, h3 {
+h1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: white;
+    font-size: large;
+}
+
+h2, h3 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -46,8 +54,8 @@ header a {
 }
 
 #menu {
-    font-size: 130%;
-    letter-spacing: 8px;
+    font-size: 110%;
+    letter-spacing: 1px;
     list-style-type: none;
 }
 
@@ -136,7 +144,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: gray;
+    color: burlywood;
     
 }
 
@@ -173,7 +181,7 @@ main {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 180%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
