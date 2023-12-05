@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@300&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -14,15 +14,15 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color:gray;
-    font-family: "Caveat", sans-serif;
+    color:white;
+    font-family: "Lato", sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Caveat', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: gray;
+    color: white;
 }
 
 /* Header */
@@ -32,7 +32,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px gray;
+    box-shadow: 0 2px 2px white;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -64,7 +64,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px gray;
+    box-shadow: 0 2px 2px white;
     display: none;
     top: 100%;
 }
@@ -110,7 +110,7 @@ main {
         padding-left: 10px;
 }
 #cover-text > h2, #cover-text > h3{
-    color:gray;
+    color:white;
 }
 /* Gallery */
 #photos img {
@@ -186,131 +186,72 @@ main {
     right: 50px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-/* Full-width input fields */
+/* Style inputs, select elements and textareas */
 input[type=text],
-input[type=password] {
+select,
+textarea {
     width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    padding: 12px 12px 12px 0;
     display: inline-block;
-    border: none;
-    background: #f1f1f1;
 }
 
-/* Add a background color when the inputs get focus */
-input[type=text]:focus,
-input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: burlywood;
+/* Style the submit button */
+input[type=submit] {
+    background-color: rgb(4, 170, 109);
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 12px 20px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
+    float: right;
 }
 
-button:hover {
-    opacity: 1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color:coral;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn,
-.signupbtn {
-    float: left;
-    width: 50%;
-}
-
-/* Add padding to container elements */
+/* Style the container */
 .container {
-    padding: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
+    border-radius: 5px;
     background-color: burlywood;
-    padding-top: 50px;
+    padding: 20px;
 }
 
-/* Modal Content/Box */
-.modal-content {
-    background-color:burlywood;
-    margin: 5% auto 15% auto;
-    /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid gray;
-    width: 80%;
-    /* Could be more or less, depending on screen size */
+/* Floating column for labels: 25% width */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
 }
 
-/* Style the horizontal ruler */
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
+/* Floating column for inputs: 75% width */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
 }
 
-/* The Close Button (x) */
-.close {
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
-}
-
-.close:hover,
-.close:focus {
-    color:burlywood;
-    cursor: pointer;
-}
-
-/* Clear floats */
-.clearfix::after {
+/* Clear floats after the columns */
+.row:after {
     content: "";
-    clear: both;
     display: table;
-}
-/* Gallery */
-#photos {
-    column-count: 3;
+    clear: both;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-    .cancelbtn,
-    .signupbtn {
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
         width: 100%;
-    
+        margin-top: 0;
+    }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -320,6 +261,7 @@ hr {
 /* Gallery */
 #photos {
     column-count: 4;
+
 }
 }
 }
