@@ -29,7 +29,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color:burlywood;
+    background-color: rgb(125, 85, 85);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -62,7 +62,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color:burlywood;
+    background-color:rgb(125, 85, 85);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -86,7 +86,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: burlywood;
+    background-color: rgb(125, 85, 85);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -102,8 +102,8 @@ main {
     position: relative;
 }
 #cover-text {
-    background-color: rgba(190, 133, 86, 0.7);
-        font-size: 120%;
+    background-color:rgba(255, 127, 80, .6);
+        font-size: 150%;
         position:sticky;
         bottom: 30px;
         width: 85%;
@@ -130,7 +130,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: burlywood;
+    background-color: rgb(125, 85, 85);
 }
 
 #social-networks i {
@@ -220,7 +220,7 @@ input[type=submit] {
 /* Style the container */
 .container {
     border-radius: 5px;
-    background-color: burlywood;
+    background-color: rgb(125, 85, 85);
     padding: 20px;
 }
 
