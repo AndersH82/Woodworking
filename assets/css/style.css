@@ -132,20 +132,54 @@ main {
     line-height: 0;
 }
 /* Footer */
-#social-networks {
-    text-align: center;
-    padding: 10px 0;
+.container {
+    background-color: green;
+    height: 20vh;
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: rgb(125, 85, 85);
+    justify-content: center;
+    align-items: center;
 }
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: burlywood;
-    
+.link {
+    height: 70px;
+    width: 70px;
+    background-color: #caf7e3;
+    border-radius: 35px;
+    text-align: center;
+    margin: 7px;
+    line-height: 80px;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.instagram:hover {
+    color: #e11d74;
+}
+
+.twitter:hover {
+    color: #00adb5;
+}
+
+.github:hover {
+    color: black;
+}
+
+.linkedin:hover {
+    color: #04009a;
 }
 
 /* Media query: larger or landscape phones (576px and up) */
