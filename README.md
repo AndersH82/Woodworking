@@ -28,6 +28,16 @@ This is the Woodworking. In case you like woodworking and the smell of worked wo
   - [Footer](#footer)
 - [Testing](#testing)
   - [Validation Test](#validation-test)
+  - [LIGHTHOUSE TEST](#lighthouse-test)
+  - [Libraries And Programs Used](#libraries-and-programs-used)
+- [Deployment \& Usage](#deployment--usage)
+  - [Deployment](#deployment)
+  - [Forking](#forking)
+  - [Clone](#clone)
+- [Credits](#credits)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
+  - [The Completed Page](#the-completed-page)
 
 # UX
 
@@ -61,6 +71,7 @@ I cerated my wireframes by hand
 ![Wireframe one](assets/Image-README/index.jpg)
 ![Wireframe two](assets/Image-README/gallery.jpg)
 ![Wireframe three](assets/Image-README/signup.jpg)
+![Wireframe four](assets/Image-README/mobile.jpg)
 
 I replaced my footer with other icons with a hover effect and added some more web links.
 Has Lato text on the pages in white color which makes it easier to read. I wanted the colors I chose to fit in with the color scheme of the pictures.
@@ -124,37 +135,99 @@ The social links all sit within the footer, which you are able to click and they
 # Testing
 
 ## Validation Test
+Index page
+![index val](assets/Image-README/indexval.png)
 
-![index val](assets/Image-README/index_val.png)
+Gallery page
+![gallery val](assets/Image-README/galleryval.png)
 
-![gallery val](assets/Image-README/gallery-val.png)
-![signup val]
-- all of my html pages have been put through the w3c html tester and passed.
-  
-![css val]
+Sign up page
+![signup val](assets/Image-README/signupval.png)
+
+CSS 
+![css val](assets/Image-README/cssval.png)
+
 - all of the css code has been put through w3c tester and has passed.
+- Css passed with 1 warning
+URI : TextArea
+2		Imported templates are not reviewed when entering directly or when uploading files.
 
-LIGHTHOUSE TEST
+## LIGHTHOUSE TEST
 
-![lighthouse rating](assets/Image-README/lighthousedesktop.png)
-- my page rating for desktop
- 
-![lighthouse rating](assets/Image-README/lighthousemobile.png)
+Index page test
+![Lighthouse index](assets/Image-README/indexlighthouse.png)
 
-- my page rating for mobile
+Gallery page test
+![Lighthouse gallery](assets/Image-README/gallerylighthouse.png)
+
+Sign Up page test
+![Lighthouse Signuo](assets/Image-README/signuplighthouse.png)
 
 
-LIBRARIES AND PROGRAMS USED
+## Libraries And Programs Used
 - Github: Store Repository
 - Codeanywhere: To create the html and css file
 - Google Fonts: Font family 'Playfair Display' and 'Source Sans'
 - Google Chrome Dev Tools: To help with styling the media queries
-- Safari: Site testing on an alternative browser
 - Font Awesome: Social media icons
 - Am I responsive: Screenshots of the final project for the README file
-- 
+- Google Lighthouse
+- W3C Validator for HTML and CSS
+  
+# Deployment & Usage
 
-MEDIA
+
+## Deployment
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Main Branch, then click "Save".
+The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link is: <https://andersh82.github.io/Woodworking/>
+
+## Forking
+
+Log in or sign up to Github.
+Go to respository for this project Woodworking.
+Click the fork button in the top right corner.
+
+## Clone
+
+To clone follow this steps:
+
+1. Go to the GitHub repository
+
+2. Locate the Code button above the list of files and click it.
+
+3. Select GitHub CLI and click the copy button to copy the URL to your clipboard.
+
+4. Open Terminal.
+
+5. Change the current working directory to the one where you want the cloned directory
+
+6. In your terminal, type the following command to clone my repository:
+git clone <https://github.com/AndersH82/Woodworking.git>
+Press Enter to create your local clone.
+# Credits
+
+Thanks to all the help and programs:
+- Code Instetute "Love Running Project"
+- Github
+- Codeanywhere
+- VsCode
+- Google Fonts
+- Fontawesome
+- unsplash.com
+- My mentor on Code Institute
+- Youtube for tutorial videos
+- W3Schools for tutorial in diffrent codes
+- http://coolors.co for colors 
+- https://amiresponsive.co.uk for the responsive picture 
+- To myself for wireframe by hand
+  
+
+
+## Media
 All of my images are sourced from unsplash.com
 
 Tanks to:
@@ -169,3 +242,17 @@ Tanks to:
 - Ipek Aydogdu
 - Jonathan Taylor
 
+## Acknowledgements
+
+I would like to thank my Code Institute mentor Rory Patrick Sheridan.
+
+I would like to thank all in my class for all the help.
+
+I had a bit of a hard time with commit before but now it's gotten better thanks to my mentor.
+
+## The Completed Page
+
+![Index page](assets/Image-README/indexpage.png)
+![Gallery page](assets/Image-README/gallerypage.png)
+![Signup page](assets/Image-README/signuppage.png)
+![Mobile view](assets/Image-README/mobileview.png)
