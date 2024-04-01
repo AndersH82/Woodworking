@@ -231,17 +231,44 @@ a:hover i {
 }
 
 /* Style inputs, select elements and textareas */
-input[type=text],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
-}
+#first_name:required {
+    /* Your CSS styles here */
+    border-color: #ffffff;
+    border-width: 3px;
+    width: 250px;
+    border-radius: 20px;
+   }
 
+#last_name:required {
+    /* Your CSS styles here */
+    border-color: #ffffff;
+    border-width: 3px;
+    width: 250px;
+    border-radius: 20px;
+   }
+#email_address:required {
+    border-color: #ffffff;
+    border-width: 3px;
+    width: 250px;
+    border-radius: 20px;
+   }
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+   }
+
+.join-button {
+    border-radius: 15px;
+    padding: 10px 20px; 
+    background-color: coral;
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    margin-left: 100px;
+}
 /* Style the label to display next to the inputs */
 label {
     padding: 12px 12px 12px 0;
@@ -281,9 +308,12 @@ label {
 
     .col-25,
     .col-75,
-    input[type=submit] {
+    #first_name:required,
+    #last_name:required, 
+    #email_address:required {
         width: 100%;
         margin-top: 0;
+
     }
 }
 /* Large devices (laptops and desktops, 992px and up) */
