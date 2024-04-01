@@ -191,7 +191,7 @@ a:hover i {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
 
     /* Header */
     nav {
@@ -231,43 +231,33 @@ a:hover i {
 }
 
 /* Style inputs, select elements and textareas */
-#first_name:required {
-    /* Your CSS styles here */
-    border-color: #ffffff;
-    border-width: 3px;
-    width: 250px;
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
     border-radius: 20px;
-   }
+}
 
-#last_name:required {
-    /* Your CSS styles here */
-    border-color: #ffffff;
-    border-width: 3px;
-    width: 250px;
-    border-radius: 20px;
-   }
-#email_address:required {
-    border-color: #ffffff;
-    border-width: 3px;
-    width: 250px;
-    border-radius: 20px;
-   }
-
-.center-container {
+#signup-form {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 50vh; 
-   }
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
 
 .join-button {
-    border-radius: 15px;
-    padding: 10px 20px; 
+    padding: 10px 20px;
     background-color: coral;
-    color: white; 
-    border: none; 
+    color: white;
+    border: none;
     cursor: pointer;
-    margin-left: 100px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
 }
 /* Style the label to display next to the inputs */
 label {
@@ -307,15 +297,15 @@ label {
 @media screen and (max-width: 600px) {
 
     .col-25,
-    .col-75,
-    #first_name:required,
-    #last_name:required, 
-    #email_address:required {
+    .col-75 {
         width: 100%;
         margin-top: 0;
 
     }
 }
+
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
