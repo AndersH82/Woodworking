@@ -1,9 +1,10 @@
->I would just like to state that im not the best in english, so if there are spelling, grammatical errors or mistakes please bare with me.
+I would just like to state that I am not the best at English, so if there are spelling, grammatical errors, or mistakes, please bear with me.
 
 ![Wood](assets/Image-README/responsive.png)
 
 # Welcome
-This is the Woodworking. In case you like woodworking and the smell of worked wood, you have come to the right place.
+
+This is woodworking. If you like woodworking and the smell of worked wood, you have come to the right place.
 
 # Table of contents
 
@@ -43,11 +44,11 @@ This is the Woodworking. In case you like woodworking and the smell of worked wo
 
 ### Site Purpose
 
-To provide information on woodworking for people of all levels who to want to learn and improve their craft in woodworking.
+To provide information on woodworking for people of all levels who want to learn and improve their craft in woodworking.
 
 ### Site Goal
 
-Can come in here and become a member. Get infrormtion and lessons in woodworking. Share experience and pictures.
+You can come in here and become a member. Get information and lessons in woodworking. Share your experience and pictures.
 
 ### Audience
 
@@ -60,26 +61,37 @@ To be able to share experiences with each other and become better together.
 ### New User Goal
 
 To be able to learn new things in woodworking.
-By registering on the website, as a new member you can get a lot of new information and tips.
+By registering on the website, you can get a lot of new information and tips.
 
 # Design
 
 ## Wireframes
 
-I cerated my wireframes by hand
+I cerated my wireframes by hand.
+
+Index Page
 
 ![Wireframe one](assets/Image-README/index.jpg)
+
+Gallery Page
+
 ![Wireframe two](assets/Image-README/gallery.jpg)
+
+Sign up Page
+
 ![Wireframe three](assets/Image-README/signup.jpg)
+
+Mobile view
+
 ![Wireframe four](assets/Image-README/mobile.jpg)
 
 I replaced my footer with other icons with a hover effect and added some more web links.
-Has Lato text on the pages in white color which makes it easier to read. I wanted the colors I chose to fit in with the color scheme of the pictures.
+It has Lato text on the pages in white, which makes it easier to read. I wanted the colors I chose to fit in with the color scheme of the pictures.
 
 ## Colour Platte
 
 The colour palette was sourced from [coolors](https://coolors.co/).
-I chose colors inspired from woodworking.
+I chose colors inspired by woodworking.
 ![Colour Pallette](assets/Image-README/colorpalette.png)
 
 #FFFFFF for text and icons
@@ -101,12 +113,12 @@ I chose colors inspired from woodworking.
 #000000 for github weblink
 
 ## Typography
-I've integrated [Google Fonts](https://fonts.google.com/) to find a typeface that compliments the website's aesthetic. For the main text, I've chosen Lato due to its optimization for readability on screens across a wide variety of devices and reading environments.
+I've integrated [Google Fonts](https://fonts.google.com/) to find a typeface that complements the website's aesthetic. For the main text, I've chosen Lato due to its optimization for readability on screens across a wide variety of devices and reading environments.
 
  
 ## Imagery
 
-All imagery for the website has been sourced from [unsplash.com](https://unsplash.com/) which are free photo stock platforms. I specifically wanted to show imagery of all the stages of woodworking, so the audience can get an understanding of the homepage.
+All imagery for the website has been sourced from [unsplash.com](https://unsplash.com/), which is a free photo stock platform. I specifically wanted to show imagery of all the stages of woodworking so the audience could get an understanding of the homepage.
 
 # Features
 
@@ -116,13 +128,13 @@ All imagery for the website has been sourced from [unsplash.com](https://unsplas
 
 ## Navigation Bar
 
-This is included on all three pages and provides an easy structure for the audience to be able to use.![navigation bar](assets/Image-README/navbar.png) This is a responsive feature and remains this way, until 768px and down where the navigation bar moves under logo,![navigation bar](assets/Image-README/navbarlogo.png), so the design of both of these features isn't compromised. When pressing navbar logo it moves the menu to the left side of the screen. ![navigation bar](assets/Image-README/navbaropen.png)
+This is included on all three pages and provides an easy structure for the audience to be able to use.![navigation bar](assets/Image-README/navbar.png) This is a responsive feature and remains this way until 768px and down, where the navigation bar moves under the logo! ![navigation bar](assets/Image-README/navbarlogo.png), so the design of both of these features isn't compromised. When pressing the navbar logo, it moves the menu to the left side of the screen. ![navigation bar](assets/Image-README/navbaropen.png)
 
 
 
 ## Completed website
 
-![landing page]()
+![landing page](assets/Image-README/indexpage.png)
 
 The landing page is displayed above.
 
@@ -135,32 +147,52 @@ The social links all sit within the footer, which you are able to click and they
 # Testing
 
 ## Validation Test
+
+- **HTML**
+
+- This validator checks the markup validity and here you can input the HTML code.
+[HTML W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+
 Index page
+
 ![index val](assets/Image-README/indexval.png)
 
 Gallery page
+
 ![gallery val](assets/Image-README/galleryval.png)
 
 Sign up page
+
 ![signup val](assets/Image-README/signupval.png)
 
-CSS 
+404 page
+
+![404 val](assets/Image-README/404val.png)
+
+- **CSS**
+
+- This vaildator checks the css and here you can input the CSS code.
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
 ![css val](assets/Image-README/cssval.png)
 
 - all of the css code has been put through w3c tester and has passed.
 - Css passed with 1 warning
 URI : TextArea
-2		Imported templates are not reviewed when entering directly or when uploading files.
+2   Imported templates are not reviewed when entering directly or when uploading files.
 
 ## LIGHTHOUSE TEST
 
 Index page test
+
 ![Lighthouse index](assets/Image-README/indexlighthouse.png)
 
 Gallery page test
+
 ![Lighthouse gallery](assets/Image-README/gallerylighthouse.png)
 
 Sign Up page test
+
 ![Lighthouse Signuo](assets/Image-README/signuplighthouse.png)
 
 
@@ -212,23 +244,23 @@ Press Enter to create your local clone.
 
 Thanks to all the help and programs:
 - Code Instetute "Love Running Project"
-- Github
-- Codeanywhere
+- Github - https://github.com
+- Codeanywhere - https://codeanywhere.com
 - VsCode
-- Google Fonts
-- Fontawesome
-- unsplash.com
+- Google Fonts - https://fonts.google.com
+- Fontawesome - https://fontawesome.com
+- unsplash.com - https://unsplash.com
 - My mentor on Code Institute
-- Youtube for tutorial videos
-- W3Schools for tutorial in diffrent codes
-- http://coolors.co for colors 
-- https://amiresponsive.co.uk for the responsive picture 
+- Youtube for tutorial videos - https://youtube.com
+- W3Schools for tutorial in diffrent codes - https://www.w3schools.com
+- Colorsheme - http://coolors.co
+- For the responsive picture https://amiresponsive.co.uk
 - To myself for wireframe by hand
   
 
 
 ## Media
-All of my images are sourced from unsplash.com
+All of my images are sourced from [unsplash.com](https://unsplash.com)
 
 Tanks to:
 
@@ -253,6 +285,11 @@ I had a bit of a hard time with commit before but now it's gotten better thanks 
 ## The Completed Page
 
 ![Index page](assets/Image-README/indexpage.png)
+
 ![Gallery page](assets/Image-README/gallerypage.png)
+
 ![Signup page](assets/Image-README/signuppage.png)
+
+![404 page](assets/Image-README/404.png)
+
 ![Mobile view](assets/Image-README/mobileview.png)
