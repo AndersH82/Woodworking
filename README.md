@@ -141,7 +141,7 @@ All imagery for the website has been sourced from [unsplash.com](https://unsplas
 
 ## Languages  Used
 
-<img src="assets/Image-readme/pp1lang.png">
+<img src="assets/image-readme/pp1lang.png">
 
 ## Navigation Bar
 
