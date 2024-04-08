@@ -29,11 +29,12 @@ This is woodworking. If you like woodworking and the smell of worked wood, you h
   - [Navigation Bar](#navigation-bar)
   - [Footer](#footer)
   - [The Completed Page](#the-completed-page)
+  - [Mobile View](#mobile-view)
 - [Testing](#testing)
-  - [Validation Test](#validation-test)
-  - [LIGHTHOUSE TEST](#lighthouse-test)
+  - [Validation Tests](#validation-tests)
+  - [Lighhouse Tests](#lighthouse-tests)
   - [Libraries And Programs Used](#libraries-and-programs-used)
-- [Deployment \& Usage](#deployment--usage)
+- [Deployment & Usage](#deployment-usage)
   - [Deployment](#deployment)
   - [Forking](#forking)
   - [Clone](#clone)
@@ -161,15 +162,23 @@ This is a responsive feature and remains this way until 768px and down, where th
 
 ## The Completed Page
 
-![Index page](assets/image-readme/indexpage.png)
+![Index page](assets/image-readme/home.png)
 
-![Gallery page](assets/image-readme/gallerypage.png)
+![Gallery page](assets/image-readme/gallery.png)
 
-![Signup page](assets/image-readme/signuppage.png)
+![Signup page](assets/image-readme/signup.png)
 
 ![404 page](assets/image-readme/404.png)
 
-![Mobile view](assets/image-readme/mobileview.png)
+# Mobile View
+
+![Index page](assets/image-readme/homemobile.png)
+
+![Gallery page](assets/image-readme/gallerymobile.png)
+
+![Signup page](assets/image-readme/signupmobile.png)
+
+![404 page](assets/image-readme/404mobile.png)
 
 ## Footer
 
@@ -179,10 +188,10 @@ The social links all sit within the footer, which you are able to click and they
 
 # Testing
 
-## Validation Test
+## Validation Tests
 
 - **HTML**
-
+- Here the website is tested via URL [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandersh82.github.io%2FWoodworking%2F)
 - This validator checks the markup validity and here you can input the HTML code.
 [HTML W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 
@@ -203,30 +212,32 @@ Sign up page
 ![404 val](assets/image-readme/404val.png)
 
 - **CSS**
-
+- Here the website is tested via URL [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandersh82.github.io%2FWoodworking%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv#css)
 - This vaildator checks the css and here you can input the CSS code.
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ![css val](assets/image-readme/cssval.png)
 
 - all of the css code has been put through w3c tester and has passed.
-- Css passed with 1 warning
-URI : TextArea
-2   Imported templates are not reviewed when entering directly or when uploading files.
 
-## LIGHTHOUSE TEST
+
+## Lighthouse Tests
 
 Index page test
 
-![Lighthouse index](assets/image-readme/indexlighthouse.png)
+![Lighthouse index](assets/image-readme/lighthome.png)
 
 Gallery page test
 
-![Lighthouse gallery](assets/image-readme/gallerylighthouse.png)
+![Lighthouse gallery](assets/image-readme/lightgallery.png)
 
 Sign Up page test
 
-![Lighthouse Signuo](assets/image-readme/signuplighthouse.png)
+![Lighthouse Signup](assets/image-readme/lightsignup.png)
+
+404 page test
+
+![Lighthouse 404](assets/image-readme/light404.png)
 
 
 ## Libraries And Programs Used
@@ -254,7 +265,7 @@ The live link is: <https://andersh82.github.io/Woodworking/>
 ## Forking
 
 Log in or sign up to Github.
-Go to respository for this project Woodworking.
+Go to respository for this project [Woodworking](https://github.com/AndersH82/Woodworking.git).
 Click the fork button in the top right corner.
 
 ## Clone
@@ -280,11 +291,11 @@ Thanks to all the help and programs:
 - Code Instetute "Love Running Project"
 - Github - https://github.com
 - Codeanywhere - https://codeanywhere.com
-- VsCode
+- VsCode - https://code.visualstudio.com/
 - Google Fonts - https://fonts.google.com
 - Fontawesome - https://fontawesome.com
 - unsplash.com - https://unsplash.com
-- My mentor on Code Institute
+- My mentor on Code Institute - Rory Patrick Sheridan
 - Youtube for tutorial videos - https://youtube.com
 - W3Schools for tutorial in diffrent codes - https://www.w3schools.com
 - Colorsheme - http://coolors.co
