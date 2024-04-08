@@ -42,7 +42,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px white;
+    
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -105,12 +105,13 @@ main {
 
 /* Wood section */
 .wood {
-    height: 100%;
     width: 100%;
+    height: 350px; /* This sets the height to 100% of the viewport height */
+    object-fit: cover; /* This ensures the image covers the entire container while maintaining its aspect ratio */
     position: relative;
 }
 #cover-text {
-    background-color:rgba(255, 127, 80, .6);
+    background-color:#ff7f5099;
         font-size: 150%;
         position:sticky;
         bottom: 30px;
@@ -134,10 +135,10 @@ main {
 /* Footer */
 .container {
     background-color: #7d5555;
-    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .link {
@@ -190,10 +191,7 @@ a:hover i {
     }
 }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 800px) {
-
-    /* Header */
+@media screen and (min-width: 768px) {
     nav {
         display: block;
         position: relative;
@@ -220,14 +218,15 @@ a:hover i {
         margin: 0 0.5rem;
     }
 
-    /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
-#cover-text {
-    width: 300px;
-    right: 50px;
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+    
 }
 
 /* Style inputs, select elements and textareas */
@@ -302,8 +301,6 @@ label {
         margin-top: 0;
 
     }
-}
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
