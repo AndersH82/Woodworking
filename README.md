@@ -109,7 +109,7 @@ It has Lato text on the pages in white, making it easier to read. I wanted the c
 
 The colour palette was sourced from [coolors](https://coolors.co/).
 I chose colors inspired by woodworking.
-![Colour Pallette](assets/Image-README/colorpalette.png)
+![Colour Pallette](assets/image-readme/colorpalette.png)
 
 #FFFFFF for text and icons
 
