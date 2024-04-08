@@ -1,6 +1,6 @@
 I would just like to state that I am not the best at English, so if there are spelling, grammatical errors, or mistakes, please bear with me.
 
-![Wood](assets/Image-README/responsive.png)
+![Wood](assets/image-readme/responsive.png)
 
 # Welcome
 
@@ -11,12 +11,14 @@ This is woodworking. If you like woodworking and the smell of worked wood, you h
 
 - [Welcome](#welcome)
 - [Table of contents](#table-of-contents)
-- [UX](#ux)
+- [User stories](#user-stories)
     - [Site Purpose](#site-purpose)
-    - [Site Goal](#site-goal)
-    - [Audience](#audience)
-    - [Current User Goal](#current-user-goal)
-    - [New User Goal](#new-user-goal)
+    - [Home Page](#home-pagel)
+    - [Gallery Page](#gallery-page)
+    - [Sign Up Page](#sign-up-page)
+    - [Footer](#footer)
+    - [Responsive Design](#responsive-design)
+    - [Accessibility](#accessibility)
 - [Design](#design)
   - [Wireframes](#wireframes)
   - [Colour Platte](#colour-platte)
@@ -25,8 +27,8 @@ This is woodworking. If you like woodworking and the smell of worked wood, you h
 - [Features](#features)
   - [Languages  Used](#languages--used)
   - [Navigation Bar](#navigation-bar)
-  - [Completed website](#completed-website)
   - [Footer](#footer)
+  - [The Completed Page](#the-completed-page)
 - [Testing](#testing)
   - [Validation Test](#validation-test)
   - [LIGHTHOUSE TEST](#lighthouse-test)
@@ -38,55 +40,70 @@ This is woodworking. If you like woodworking and the smell of worked wood, you h
 - [Credits](#credits)
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
-  - [The Completed Page](#the-completed-page)
 
-# UX
+# User stories
 
 ### Site Purpose
 
-To provide information on woodworking for people of all levels who want to learn and improve their craft in woodworking.
+Title: Woodworking 
 
-### Site Goal
+As a woodworking enthusiast,
 
-You can come in here and become a member. Get information and lessons in woodworking. Share your experience and pictures.
+I want to explore woodworking classes,
 
-### Audience
+So that I can learn new skills and enjoy the process of creating with wood.
 
-Anyone who wants to learn woodworking is welcome, young and old.
+Acceptance Criteria:
 
-### Current User Goal
+#### Home Page:
+- When I visit the home page, I should see a welcoming introduction to woodworking classes, including a visually appealing image of woodworking and a brief description of what to expect from the classes.
+- I should be able to navigate to the Gallery, Sign Up, and other relevant sections of the website through a responsive navigation menu.
 
-To be able to share experiences with each other and become better together.
+#### Gallery Page:
+- On the Gallery page, I should see a collection of images showcasing various woodworking projects, tools, and techniques.
+- Each image should have an alt text describing what it represents, enhancing accessibility and SEO.
 
-### New User Goal
+#### Sign Up Page:
+- On the Sign Up page, I should find a form to register for woodworking classes.
+- The form should require my first name, last name, and email address, and it should be clear that this information is necessary for registration.
+- Upon submitting the form, I should receive a confirmation message or be redirected to a thank you page, indicating that my registration was successful.
 
-To be able to learn new things in woodworking.
-By registering on the website, you can get a lot of new information and tips.
+#### Footer:
+- Across all pages, I should find links to social media profiles (LinkedIn, Twitter, GitHub, Instagram, YouTube, Facebook) in the footer.
+- These links should be clearly marked and accessible, allowing me to connect with the woodworking community on these platforms.
+
+#### Responsive Design:
+- The website should be responsive, ensuring that it looks and functions well on various devices, including desktops, tablets, and smartphones.
+- The navigation menu should be easily accessible and functional on all devices, allowing me to navigate the website seamlessly.
+
+#### Accessibility:
+- The website should be accessible to users with disabilities, including those using screen readers or other assistive technologies.
+- This includes proper use of alt text for images, keyboard navigation, and ensuring that all interactive elements are accessible.
 
 # Design
 
 ## Wireframes
 
-I cerated my wireframes by hand.
+Here is my idea of how Woodworking's website would look.
 
-Index Page
+Index Page 
 
-![Wireframe one](assets/Image-README/index.jpg)
+![Wireframe one](assets/image-readme/index.jpg)
 
 Gallery Page
 
-![Wireframe two](assets/Image-README/gallery.jpg)
+![Wireframe two](assets/image-readme/gallery.jpg)
 
 Sign up Page
 
-![Wireframe three](assets/Image-README/signup.jpg)
+![Wireframe three](assets/image-readme/signup.jpg)
 
 Mobile view
 
-![Wireframe four](assets/Image-README/mobile.jpg)
+![Wireframe four](assets/image-readme/mobile.jpg)
 
-I replaced my footer with other icons with a hover effect and added some more web links.
-It has Lato text on the pages in white, which makes it easier to read. I wanted the colors I chose to fit in with the color scheme of the pictures.
+I replaced my footer with other icons with a hover effect and added a few more web links.
+It has Lato text on the pages in white, making it easier to read. I wanted the colors I chose to fit into the color scheme of the photos.
 
 ## Colour Platte
 
@@ -123,26 +140,42 @@ All imagery for the website has been sourced from [unsplash.com](https://unsplas
 # Features
 
 ## Languages  Used
-- HTML 
-- CSS
+
+<img src="assets/Image-readme/pp1lang.png">
 
 ## Navigation Bar
 
-This is included on all three pages and provides an easy structure for the audience to be able to use.![navigation bar](assets/Image-README/navbar.png) This is a responsive feature and remains this way until 768px and down, where the navigation bar moves under the logo! ![navigation bar](assets/Image-README/navbarlogo.png), so the design of both of these features isn't compromised. When pressing the navbar logo, it moves the menu to the left side of the screen. ![navigation bar](assets/Image-README/navbaropen.png)
+This is included on all three pages and provides an easy structure for the audience to be able to use.
+
+![navigation bar](assets/image-readme/navbar.png)
+
+This is a responsive feature and remains this way until 768px and down, where the navigation bar moves under the logo! , so the design of both of these features isn't compromised. When pressing the navbar logo, it moves the menu to the left side of the screen.
+
+![navigation bar](assets/image-readme/navbarlogo.png)
 
 
 
-## Completed website
+ ![navigation bar](assets/image-readme/navbaropen.png)
 
-![landing page](assets/Image-README/indexpage.png)
 
-The landing page is displayed above.
+
+## The Completed Page
+
+![Index page](assets/image-readme/indexpage.png)
+
+![Gallery page](assets/image-readme/gallerypage.png)
+
+![Signup page](assets/image-readme/signuppage.png)
+
+![404 page](assets/image-readme/404.png)
+
+![Mobile view](assets/image-readme/mobileview.png)
 
 ## Footer
 
-![footer](assets/Image-README/footer.png)
+![footer](assets/image-readme/footer.png)
 
-The social links all sit within the footer, which you are able to click and they will take you to the intended social media platform. They have the hover effect that changes color to the pages color.
+The social links all sit within the footer, which you are able to click and they will take you to the intended social media platform. They have the hover effect that changes color to the pages color. (LinkedIn, Twitter, GitHub, Instagram, YouTube, Facebook)
 
 # Testing
 
@@ -155,26 +188,26 @@ The social links all sit within the footer, which you are able to click and they
 
 Index page
 
-![index val](assets/Image-README/indexval.png)
+![index val](assets/image-readme/indexval.png)
 
 Gallery page
 
-![gallery val](assets/Image-README/galleryval.png)
+![gallery val](assets/image-readme/galleryval.png)
 
 Sign up page
 
-![signup val](assets/Image-README/signupval.png)
+![signup val](assets/image-readme/signupval.png)
 
 404 page
 
-![404 val](assets/Image-README/404val.png)
+![404 val](assets/image-readme/404val.png)
 
 - **CSS**
 
 - This vaildator checks the css and here you can input the CSS code.
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-![css val](assets/Image-README/cssval.png)
+![css val](assets/image-readme/cssval.png)
 
 - all of the css code has been put through w3c tester and has passed.
 - Css passed with 1 warning
@@ -185,26 +218,27 @@ URI : TextArea
 
 Index page test
 
-![Lighthouse index](assets/Image-README/indexlighthouse.png)
+![Lighthouse index](assets/image-readme/indexlighthouse.png)
 
 Gallery page test
 
-![Lighthouse gallery](assets/Image-README/gallerylighthouse.png)
+![Lighthouse gallery](assets/image-readme/gallerylighthouse.png)
 
 Sign Up page test
 
-![Lighthouse Signuo](assets/Image-README/signuplighthouse.png)
+![Lighthouse Signuo](assets/image-readme/signuplighthouse.png)
 
 
 ## Libraries And Programs Used
-- Github: Store Repository
-- Codeanywhere: To create the html and css file
-- Google Fonts: Font family 'Playfair Display' and 'Source Sans'
-- Google Chrome Dev Tools: To help with styling the media queries
-- Font Awesome: Social media icons
-- Am I responsive: Screenshots of the final project for the README file
-- Google Lighthouse
-- W3C Validator for HTML and CSS
+- [Github](https://github.com/AndersH82/Woodworking.git): Repository
+- [Codeanywhere](https://codeanywhere.com/): To create the html and css file
+- [Google Fonts](https://fonts.google.com/): Font family 'Playfair Display' and 'Source Sans'
+- Google Chrome Dev Tools: To help with styling the media queries you found it in google chrome.
+- [Font Awesome](https://fontawesome.com/): Social media icons
+- [Am I responsive](https://ui.dev/amiresponsive): Screenshots of the final project for the README file
+- Google Lighthouse: For testing Performance, Accessibility, Best Practices, SEO
+- [W3C Validator](https://validator.w3.org/) for HTML
+- [W3C Validator](https://jigsaw.w3.org/css-validator/) for CSS
   
 # Deployment & Usage
 
@@ -282,14 +316,4 @@ I would like to thank all in my class for all the help.
 
 I had a bit of a hard time with commit before but now it's gotten better thanks to my mentor.
 
-## The Completed Page
 
-![Index page](assets/Image-README/indexpage.png)
-
-![Gallery page](assets/Image-README/gallerypage.png)
-
-![Signup page](assets/Image-README/signuppage.png)
-
-![404 page](assets/Image-README/404.png)
-
-![Mobile view](assets/Image-README/mobileview.png)
