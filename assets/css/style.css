@@ -133,7 +133,7 @@ main {
 }
 /* Footer */
 .container {
-    background-color: rgb(125, 85, 85);
+    background-color: #7d5555;
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -251,7 +251,7 @@ a:hover i {
 
 .join-button {
     padding: 10px 20px;
-    background-color: coral;
+    background-color: #ff7f50;
     color: white;
     border: none;
     cursor: pointer;
